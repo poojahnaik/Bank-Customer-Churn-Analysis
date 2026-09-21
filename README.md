@@ -1,7 +1,7 @@
 # Bank-Customer-Churn-Analysis
 This projects consists of anaysis of 10,000 bank customers to get insights about customer churn behavior, using Python, SQL, and Power BI.
 ## Project Intro/Objective
-The purpose of this project is to gather insights about customer churn behavior. This project analyzes customer purchase behavior based on transactional data of 3,900 customers. It consists of data regarding various product categories, the items purchased, spending habits of the customers, whether the customer has a subscription or not etc., all of these together can help us in making strategic business decisions
+The purpose of this project is to gather insights about customer churn behavior. This project analyzes churn patterns for 10,000 bank customers, using demographic, account, and service data to identify who leaves and why.
 
 -- Project Status: Completed
 
@@ -21,12 +21,12 @@ Technologies
     Power BI
 
 ## About the Dataset
-The dataset consists of 3,900 rows of customer data and 19 columns. The columns are in following categories :-
+The dataset consists of 10,000 rows of customer data and 18 columns. The columns are in following categories :-
     i) Customer Demographics – Age, Gender, Geography 
     ii) Banking Related – Has Cr Card, Is Active Member, Card Type, Tenure, Balance, Num of Products
     iii) Financial Profile – Credit Score, Estimated Salary, Balance
     iv) Service and Loyalty – Complain, Satisfaction Score, Point Earned 
-    v) Target Variable – ExitedShipping Type
+    v) Target Variable – Exited
 
 ## Workflow
     Exploratory Data Analysis (EDA) using Python -> Structured Analysis using SQL -> Data Visualization -> Recommendations
@@ -69,11 +69,11 @@ The dataset consists of 3,900 rows of customer data and 19 columns. The columns 
   7. Balance within each country:
       i) In France and Spain, churn rises steadily with balance quartile (France 14.11% to 19.47%, Spain 13.06% to 19.22%).
       ii) In Germany, churn peaks in the middle quartiles (44.18% and 37.96%).
-      iii) Complaints and exits almost coincide: 2,034 of 2,044 customers who complained churned (99.5%), versus 4 of 7,956 who             didn't. This suggests complaints were recorded at or after the exit, so treat it as a data caveat, not a driver.
-  8. Weak or no effect: tenure (about 17-23% in every year, with no clear trend), credit card ownership (about 20% either way), and     credit score (18-22% across bands).
+  8. Complaints and exits almost coincide: 2,034 of 2,044 customers who complained churned (99.5%), versus 4 of 7,956 who didn't.       This suggests complaints were recorded at or after the exit, so treat it as a data caveat, not a driver.
+  9. Weak or no effect: tenure (about 17-23% in every year, with no clear trend), credit card ownership (about 20% either way), and     credit score (18-22% across bands).
 
 ## Business Recommendations
-  1. Gender Targeted Efforts – Female customers make up 55.89% of all churners vs 44.11% for male customers, investigate the reason     for it and apply some targeted retention schemes based on customer behavior and needs.
+  1. Gender Targeted Efforts – Female customers make up 55.89% of all churners vs 44.11% for male customers, and churn at 25.07%        versus 16.47% for male customers, investigate the reason     for it and apply some targeted retention schemes based on customer       behavior and needs.
   2. Product Depth Strategy – Customers with 2 products tend to have the lowest churn rate, 7.6%, while those who purchase 3 or 4       products have the highest churn rate, 82.71% and 100%. Though the last 2 categories have lesser amount of customers, it is still      worth investigating the cause behind this (for example – price, fees, product fit etc.), before promoting any selling further than    2 products.
   3. Region Based Efforts – Germany’s churn rate is 32.44% as compared to Spain and France’s 16.67% and 16.17%, look into the reasons   for it and rectify it using some targeted retention strategies, and track the churn rate quarterly.
 

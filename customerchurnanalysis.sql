@@ -15,6 +15,7 @@ select geography, exited, count(customer_id) as no_of_customers
 from customerchurn
 group by geography, exited
 order by geography, exited
+	
 
 --how many customers churn based on their group age?
 select age_group, exited, count(customer_id) as no_of_customers
@@ -120,7 +121,7 @@ from customerchurn
 group by geography, age_group)
 select geography, age_group, churn_rate 
 from seg
-where churn_rank<=5 
+where churn_rank<=3 
 order by geography, churn_rate desc
 
 --Which age groups account for most of the churners?

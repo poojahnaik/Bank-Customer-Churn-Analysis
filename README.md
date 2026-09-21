@@ -77,4 +77,4 @@ The dataset consists of 10,000 rows of synthetic customer data and 18 columns. T
   2. Product Depth Strategy – Customers with 2 products tend to have the lowest churn rate, 7.6%, while those who purchase 3 or 4       products have the highest churn rate, 82.71% and 100%. Though the last 2 categories have lesser amount of customers, it is still      worth investigating the cause behind this (for example – price, fees, product fit etc.), before promoting any selling further than    2 products.
   3. Region Based Efforts – Germany’s churn rate is 32.44% as compared to Spain and France’s 16.67% and 16.17%, look into the reasons   for it and rectify it using some targeted retention strategies, and track the churn rate quarterly.
 
-## The churn rates can all be found within the dashboard.
+### The churn rates can all be found within the dashboard.

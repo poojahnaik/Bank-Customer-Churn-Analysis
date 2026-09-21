@@ -1,5 +1,5 @@
 # Bank-Customer-Churn-Analysis
-This projects consists of anaysis of 10,000 bank customers to get insights about customer churn behavior, using Python, SQL, and Power BI.
+Analysis of 10,000 bank customers to get insights about customer churn behavior, using Python, SQL, and Power BI.
 ## Project Intro/Objective
 The purpose of this project is to gather insights about customer churn behavior. This project analyzes churn patterns for 10,000 bank customers, using demographic, account, and service data to identify who leaves and why.
 

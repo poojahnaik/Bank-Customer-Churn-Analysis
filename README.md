@@ -21,7 +21,7 @@ Technologies
     Power BI
 
 ## About the Dataset
-The dataset consists of 10,000 rows of customer data and 18 columns. The columns are in following categories :-
+The dataset consists of 10,000 rows of synthetic customer data and 18 columns. The columns are in following categories :-
     i) Customer Demographics – Age, Gender, Geography 
     ii) Banking Related – Has Cr Card, Is Active Member, Card Type, Tenure, Balance, Num of Products
     iii) Financial Profile – Credit Score, Estimated Salary, Balance
